@@ -94,7 +94,7 @@
 .timeline-item--active .timeline__content-title {
   margin: -50px 0 20px 0;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
   .timeline-item {
     align-self: baseline !important;
     width: 100%;
