@@ -1,0 +1,21 @@
+.home {
+  background: url('../img/crisis_1.jpg') center no-repeat fixed;
+  filter: blur(0px);
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -khtml-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.paragraph:nth-child(odd) {
+  background-image: linear-gradient(to top left, #e9defa 0%, #fbfcdb 100%);
+}
+
+.paragraph:nth-child(even) {
+  background: linear-gradient(to top right,#fbfcdb 0%, #e9defa 100%);
+}
